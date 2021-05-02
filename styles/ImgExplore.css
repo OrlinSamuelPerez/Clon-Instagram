@@ -1,0 +1,13 @@
+.ImgExplore-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-gap:10px ;
+    margin-top: 90px;
+    grid-row-gap: 10px;
+}
+.Img-Explore img{
+    width: 100%;
+}
