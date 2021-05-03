@@ -13,7 +13,10 @@ nav h1{
     font-size: 30px;
     position: fixed;
     left: 18%;
-    top: -2%;
+    top: -1%;
+}
+h1 a img{
+    width: 120px;
 }
 nav ul{
     display: flex;

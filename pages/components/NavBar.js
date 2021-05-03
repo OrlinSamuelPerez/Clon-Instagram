@@ -2,7 +2,7 @@ import Link from 'next/link'
 export default function NavBar(){
     return(
         <nav>
-            <h1>Instagram</h1>
+            <h1><Link href="/"><a><img src="/instagram.svg"/></a></Link></h1>
             <form>
                 <input placeholder="Buscar"/>
             </form>
