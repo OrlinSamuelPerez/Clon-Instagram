@@ -1,10 +1,11 @@
 import History from './History'
+import Comment from './Comment'
 export default function Post(props){
     return(
         <article className="post-main">
             <div className="grid-post">
                 <div>
-                    <History img="https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                    <History img={props.imgUser} />
                 </div>
                 <div className="user-ubi">
                     <span className="user">{props.user}</span><br></br>
@@ -24,7 +25,7 @@ export default function Post(props){
                 </p>
                 <time>Hace un dia</time>
             </article>
-        
+        <Comment/>
         </article>
     )
 }

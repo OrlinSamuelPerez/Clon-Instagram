@@ -4,6 +4,7 @@ import '../styles/Navbar.css'
 import '../styles/Post.css'
 import '../styles/ImgExplore.css'
 import NavBar from './components/NavBar'
+import '../styles/Comment.css'
 function MyApp({ Component, pageProps }) {
   return (
     <>

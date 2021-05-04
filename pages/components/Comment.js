@@ -1,8 +1,9 @@
 export default function Comment(props){
     return(
-        <form>
-            <input placeholder="Agrega un comentario..."/>
-            <input type="submit" value="Publicar"/>
+        <form className="comment-main">
+            <img src="/sonreir.svg"/>
+            <input type="text" placeholder="Agrega un comentario..."/>
+            <input type="submit" value="Publicar" disabled/>
         </form>
     )
 }

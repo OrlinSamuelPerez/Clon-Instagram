@@ -1,0 +1,28 @@
+.comment-main img{
+    margin-top: 10px;
+    width: 25px;
+}
+.comment-main {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid rgb(230, 228, 228);
+    padding-left: 15px;
+    padding: 5px 15px 5px 15px;
+
+}
+.comment-main input[type=submit]{
+    border: none;
+    background-color: transparent;
+    color: rgb(107, 107, 255);
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 230px;
+
+}
+.comment-main input[type=text]{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 5px;
+}
